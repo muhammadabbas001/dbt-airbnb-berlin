@@ -44,7 +44,7 @@ models:
     +materialized: view
     dim:
       +materialized: table
-    scr:
+    src:
       +materialized: ephemeral
     fct:
       +tags: ["fact"]
