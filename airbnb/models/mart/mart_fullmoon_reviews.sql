@@ -6,6 +6,7 @@
   batch_size = 'year',
   full_refresh = false,
   tags = ['fact'],
+  schema = 'mart'
 ) }}
 
 WITH fct_reviews AS (
