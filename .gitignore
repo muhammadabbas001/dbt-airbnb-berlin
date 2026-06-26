@@ -1,7 +1,7 @@
 airbnb/profiles.yml
 airbnb/target*/
 logs/
-airbnb/_prod_profiles/profiles.yml
+/airbnb/_prod_profiles/profiles.yml
 
 airbnb/package-lock.yml
 airbnb/dbt_packages/
