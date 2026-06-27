@@ -1,12 +1,12 @@
 {{ config(
-  materialized = 'table',
-  incremental_strategy = 'microbatch',
-  event_time = 'review_date',
-  degin = '2009-06-30',
-  batch_size = 'year',
-  full_refresh = false,
-  tags = ['fact'],
-  schema = 'mart'
+    materialized='table', 
+    incremental_strategy='microbatch', 
+    event_time='review_date', 
+    batch_size='year', 
+    full_refresh=false, 
+    tags=['fact'], 
+    schema='mart', 
+    meta={'degin': '2009-06-30'}
 ) }}
 
 WITH fct_reviews AS (
